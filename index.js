@@ -3,7 +3,8 @@ const
 	Commando = require('discord.js-commando'),
 	client = new Commando.Client({
 		commandPrefix: '?',
-		owner: '120602141537599488'
+		owner: '120602141537599488',
+		unknownCommandResponse: false
 	});
 
 
@@ -21,7 +22,7 @@ client.registry
 
 client.once('ready', () => {
 	console.log(`Logged in as ${client.user.tag}! (${client.user.id})`);
-	client.user.setActivity('developing the quotebot');
+	client.user.setActivity('?help for a list of commands');
 });
 
 client.on('error', console.error);
