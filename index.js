@@ -12,6 +12,7 @@ client.registry
 	// Registers your custom command groups
 	.registerGroups([
 		['main', 'Main commands'],
+		['nsfw', 'NSFW commands']
 	])
 
 	// Registers all built-in groups, commands, and argument types
