@@ -1,6 +1,6 @@
 const
-	Discord = require('discord.js');
-    { Command } = require('discord.js-commando');
+	Discord = require('discord.js'),
+    { Command } = require('discord.js-commando'),
     Pornsearch = require('pornsearch');
     
 module.exports = class PornHub extends Command {
