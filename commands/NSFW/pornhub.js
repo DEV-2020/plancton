@@ -14,7 +14,7 @@ module.exports = class PornHub extends Command {
     }
 
     async run(message) {
-        if (message.channel.id !== '564769699825451039') return message.channel.send('Coquin, faut mettre ça dans <#564769699825451039>')
+        if (message.channel.guild.channels.find(channel => channel.name === 'nsfw').id) return message.channel.send('Coquin, faut mettre ça dans <#564769699825451039>')
         const sections = ["Japanese", "Asian", "Hentai", "Gay", "Lesbian", "Ugly", "BBW Hairy", "Fat",
             "Black", "Shemale", "Animals", "POV", "German", "Urination", "Foot",
             "Mia Khalifa", "Funny", "Fist", "Anal", "Toilet", "Family", "Sister",
@@ -30,10 +30,10 @@ module.exports = class PornHub extends Command {
             "Muslim", "Christian", "Jew", "Buddhist", "Atheist", "Bondage", "Shibari", "Pansexual", "Student"
         ]
 
-        let selected = sections[Math.floor(Math.random() * sections.length)];
-        let Searcher = new Pornsearch(selected);
+        const selected = sections[Math.floor(Math.random() * sections.length)];
+        const Searcher = new Pornsearch(selected);
         Searcher.videos().then(videos => {
-            let randomize = Math.floor(Math.random() * videos.length);
+            const randomize = Math.floor(Math.random() * videos.length);
             message.channel.send(`${message.author.username} randomized video with tag ${selected} :smirk::\n${videos[randomize].url}`)
         })
     }
