@@ -1,5 +1,5 @@
 const
-	Discord = require('discord.js'),
+	Discord = require('discord.js');
     { Command } = require('discord.js-commando');
     Pornsearch = require('pornsearch');
     
