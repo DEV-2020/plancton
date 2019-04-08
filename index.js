@@ -12,11 +12,12 @@ client.registry
 	// Registers your custom command groups
 	.registerGroups([
 		['main', 'Main commands'],
+		['nsfw', 'NSFW commands']
 	])
 
 	// Registers all built-in groups, commands, and argument types
 	.registerDefaults()
-
+    
 	// Registers all of your commands in the ./commands/ directory
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
