@@ -14,7 +14,7 @@ module.exports = class PornHub extends Command {
     }
 
     async run(message) {
-        if (message.channel.guild.channels.find(channel => channel.name === 'nsfw').id) return message.channel.send('Coquin, faut mettre ça dans <#564769699825451039>')
+        if (message.guild.channels.get(message.channel.id).name == 'nsfw') return message.channel.send('Coquin, faut mettre ça dans <#564769699825451039>')
         const sections = ["Japanese", "Asian", "Hentai", "Gay", "Lesbian", "Ugly", "BBW Hairy", "Fat",
             "Black", "Shemale", "Animals", "POV", "German", "Urination", "Foot",
             "Mia Khalifa", "Funny", "Fist", "Anal", "Toilet", "Family", "Sister",
