@@ -7,6 +7,7 @@ const
 		unknownCommandResponse: false
 	});
 
+require('dotenv').config();	
 
 client.registry
 	// Registers your custom command groups
