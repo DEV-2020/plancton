@@ -26,9 +26,9 @@ module.exports = class PornHub extends Command {
             "Funny", "Scissoring", "Celebrity", "Furry", "Horse", "Childish", "Handicap", "Midget",
             "Children", "Puke", "Shitting", "Drugs", "Trap", "Blood", "Strikes", "Egg",
             "Pokemon", "Painal", "Vomit", "Alien", "BBW", "Hairy", "Homeless", "Duck",
-            "Dog", "Strap On", "Postop", "Period", "Arawine", "Creampie", "Prolapsus",
+            "Dog", "Strap On", "Postop", "Period", "Louis moroccan", "Creampie", "Prolapsus",
             "Jacquie et Michel", "Post-Op", "Post Op", "Muscular", "Steroids", "Ahegao", "Lolicon",
-            "Shotacon", "Otoko No Ko", "Boku No Pico", "Yiff", "Rim Job", "RJ", "Juliette", "Bollywood",
+            "Shotacon", "Otoko No Ko", "Boku No Pico", "Yiff", "Rim Job", "RJ", "Fastfire", "Bollywood",
             "Muslim", "Christian", "Jew", "Buddhist", "Atheist", "Bondage", "Shibari", "Pansexual", "Student"
         ];
 
